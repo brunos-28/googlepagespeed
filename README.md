@@ -5,11 +5,7 @@
 var scriptProperties = PropertiesService.getScriptProperties();
 var pageSpeedApiKey = scriptProperties.getProperty('PSI_API_KEY');
 var pageSpeedMonitorUrls = [
-  'https://www.junglegym.co.uk',
-  'https://www.junglegym.co.uk/sale',
-  'https://www.junglegym.co.uk/climbing-frames',
-  'https://www.junglegym.co.uk/swings',
-  'https://www.junglegym.co.uk/swings/wooden-garden-play-equipment-totem-2-climb-1'
+  'https://www.test.com'
 ];
 
 function monitor() {
